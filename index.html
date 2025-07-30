@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>AnushkaVerse</title>
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+		rel="stylesheet" />
+	<link rel="stylesheet" href="style.css" />
+	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="card shadow-lg p-4 rounded chatbot-card">
+			<h2 class="text-center text-info mb-4">AnushkaVerse ChatBot</h2>
+			<div class="form-group">
+				<input
+					type="text"
+					class="form-control rounded-pill px-4 py-2"
+					id="userInput"
+					placeholder="Ask me anything..." />
+			</div>
+			<div class="text-center">
+				<button class="btn btn-primary rounded-pill px-5" onclick="sendMessage()">Ask</button>
+			</div>
+			<div id="response" class="mt-4 p-3 rounded"></div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+	color: white;
+	min-height: 100vh;
+	padding-top: 50px;
+}
+
+.chatbot-card {
+	background-color: #1e1e2f;
+	border: none;
+}
+
+#response {
+	background-color: #29293d;
+	border-radius: 10px;
+	padding: 15px;
+	color: #f1f1f1;
+	font-size: 1rem;
+	line-height: 1.6;
+	animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+#response h3 {
+	color: #66fcf1;
+}
+
+#response strong {
+	color: #ffd369;
+}
+
+#response ul {
+	padding-left: 20px;
+}
+
+#response li {
+	margin-bottom: 5px;
+}
